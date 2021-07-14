@@ -291,14 +291,6 @@ let open = document.querySelector(".open");
 let modal = document.querySelector(".modal");
 let modalC = document.querySelector(".modal-container");
 
-let slider = document.getElementById("slider");
-navToggle.addEventListener("click",() => {
-    slider.style.display= "none";
-});
-navToggleCross.addEventListener("click",() => {
-    slider.style.display="block";
- });
-
 //Abriendo modal
 open.addEventListener("click", () => {
     modalC.style.opacity = "1";

@@ -249,7 +249,7 @@ footer {
   grid-column: content-start/content-end;
   grid-template: [row] 1fr / repeat(24, [col] minmax(0, 103.33333px));
   grid-gap: 1rem 20px;
-  padding: 0;
+  padding: 2%;
 }
 
 .firstScreen .partners-item {
@@ -941,7 +941,7 @@ td {
   }
   .logo {
     padding: 3%;
-    width: 45%;
+    width: 56%;
     margin: 0%;
   }
   .img-logo {
